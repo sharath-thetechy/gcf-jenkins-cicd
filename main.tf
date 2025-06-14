@@ -9,7 +9,7 @@ resource "google_storage_bucket" "auto-expire" {
   public_access_prevention = "enforced"
 }
 resource "google_storage_bucket" "auto-expire" {
-  name                     = "tf-github-bucky-s3buck-jenkins3"
+  name                     = "tf-github-bucky-s3buck-jenkins4"
   location                 = "US"
   force_destroy            = true
   public_access_prevention = "enforced"
