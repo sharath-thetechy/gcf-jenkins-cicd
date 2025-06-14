@@ -8,3 +8,10 @@ resource "google_storage_bucket" "auto-expire" {
   force_destroy            = true
   public_access_prevention = "enforced"
 }
+resource "google_storage_bucket" "auto-expire" {
+  name                     = "tf-github-bucky-s3buck-jenkins2"
+  location                 = "US"
+  force_destroy            = true
+  public_access_prevention = "enforced"
+}
+
